@@ -1,0 +1,118 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+a.button1 {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: .4em 4em;
+    outline:auto;
+    border: 2px solid;
+    border-radius: 50px;
+    margin: 10%;
+    text-align: center;
+    transition: 0.5s;
+  }
+  a.button1:hover { 
+    background: #8fff98; 
+  } 
+  a.button2 {
+    display:inline-block;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    user-select: none;
+    padding: .4em 4em;
+    outline:auto;
+    border: 2px solid;
+    border-radius: 25px;
+    margin: 2%;
+    text-align: center;
+    transition: 0.5s;
+  }
+a.button2:hover { 
+    background: #8fff98;
+}
+  main {
+    font-weight: 400;
+  }
+  .enter_btn {
+    display:inline-block;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    user-select: none;
+    padding: .4em 4em;
+    outline:auto;
+    border: 2px solid;
+    border-radius: 25px;
+    margin: 2%;
+    text-align: center;
+    transition: 0.5s;
+}
+.reg_page {
+    color: #14d544;
+}
+.reg_field {
+    font-family: monospace, Courier;
+    width: 100%;
+    color: white;
+    background: transparent;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-color: rgb(255, 255, 255)
+}
+.reg_button {
+    background-color: #a9a9a9;
+    border-width: 0px;
+    border-radius: 0.5em;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: monospace, Courier;
+}
+.login {
+    color: black;
+    text-align: center;
+    background-color: #9ffd75;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 2em;
+    padding: 10px;
+    padding-bottom: 209px;
+    padding-top: 90px;
+    border-width: 0px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 50px;
+}
+.login_field {
+    font-family: monospace, Courier;
+    width: 100%;
+    color: black;
+    background: transparent;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-color: rgba(255, 255, 255, .25)
+}
+.login_button {
+    background-color: #29D053;
+    border-width: 0px;
+    border-radius: 0.5em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: monospace, Courier;
+}
